@@ -1,0 +1,104 @@
+body{
+    overflow-x: hidden;
+}
+.bgimg{
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/21/20/51/tshirt-2428521_960_720.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+width:100%;
+
+}
+
+.headerset{
+    padding:200px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size:3rem;
+}
+
+
+.headerset h1{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+
+.row-collection{
+    
+    margin:15px !important;
+}
+
+.collection-content{
+    margin:1.5rem;
+    
+}
+.categories{
+    margin-top:30px;
+}
+
+.categories-item-1,.categories-item-2,.categories-item-3,.categories-item-4,.categories-item-5,.categories-item-6{
+    margin-top:10px;
+    width:100%;
+}
+
+.row-merchandise{
+padding:20px;
+
+}
+
+.row-categories-1,.row-categories-2,.row-categories-3,.row-categories-4,.row-categories-5{
+   
+    margin:20px;
+    
+}
+
+.merchandise{
+
+    margin-top:30px;
+    padding:10px;
+}
+.row-best-seller{
+
+line-height:10px;
+}
+.best-seller{
+    margin-top:30px;
+}
+.row-best-seller{
+    margin-top:30px;
+}
+.row-best-seller img{
+   padding-bottom:10px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+   
+
+.collection-item:hover img, .categories-item-1:hover img,.categories-item-2:hover img,.categories-item-3:hover img,.categories-item-4:hover img,.categories-item-5:hover img,.categories-item-6:hover img{
+
+    transform:scale(1.1);
+
+
+}
+.collection-item img, .categories-item-1 img,.categories-item-2 img,.categories-item-3 img,.categories-item-4 img,.categories-item-5 img,.categories-item-6 img {
+    transition:transform 1s;
+}
+.collection-item, .categories-item-1 ,.categories-item-2 ,.categories-item-3,.categories-item-4,.categories-item-5,.categories-item-6{
+    overflow:hidden;
+}
+
+#abc {
+    display:block;
+    text-align: center;
+    background-color: red;
+    color:white;
+    margin-top:50px;
+    margin-bottom: 15px;
+
+}
+#customers{
+    text-align:center;
+    font-size: 3rem;
+}
